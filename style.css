@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto+Condensed&display=swap');
+
+body{
+    background-color: peachpuff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    padding: 0 15px;
+}
+
+nav{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    color: white;
+}
+
+.brand img{
+    width: 60px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.titlecolor{
+    color: blanchedalmond;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.container{
+    min-height:61vh; 
+    background-color: black;
+    color:black
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 15px;
+    background-image: url(wolf.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.bottom{
+    position: sticky;
+    height:70px;
+    background-color: black;
+    color: white;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 5px;
+    
+}
+.icons i{
+    cursor: pointer;
+}
+
+.songItem{
+height: 40px;
+display:flex;
+background-color:lightskyblue;
+width: 100%;
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 25px;
+
+}
+
+.songItem img{
+width: 18px;
+margin:0 30px ;
+border-radius: 50px;
+}
+
+.timestamp{
+    margin-left: 20px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+
