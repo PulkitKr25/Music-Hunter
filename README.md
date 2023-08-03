@@ -1,3 +1,21 @@
+
+
+
+
+
+
+<img width="946" alt="image" src="https://github.com/PulkitKr25/Music-Hunter/assets/102297963/ef8dc645-3c88-4e3a-9069-0a6e9b5009d6">
+
+
+
+
+
+
+
+
+
+
+
 # Music-Hunter
 An online Music Player
 
